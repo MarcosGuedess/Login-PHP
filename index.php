@@ -3,7 +3,7 @@
 
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     session_start();
-    if($_POST['username'] == 'Vitor' and $_POST['password'] == 'senha'){
+    if($_POST['username'] == 'Marcos' and $_POST['password'] == 'senha'){
         $_SESSION['loggedin'] = TRUE;
         $_SESSION["username"] = 'Marcos Guedes';
          header("location: welcome.php");
